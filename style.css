@@ -1,0 +1,45 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header
+{
+    display: flex;
+    grid-template-columns: 2fr,1fr;
+    width: 95vw;
+    margin-top: 40px;
+}
+.header-1
+{
+    display: grid;
+    flex-basis: 45%;
+    flex-direction: column;
+    margin-left: 100px;
+    /* background-color: blue; */
+}
+.header-1 h1
+{
+    font-size: 250%;
+    font-weight: 150%;
+    font-family: sans-serif;
+}
+.header-1 p
+{
+    font-size: 90%;
+    font-weight: 300px;
+    font-family: sans-serif;
+}
+.header-2
+{
+    display: grid;
+    flex-basis: 50%;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* background-color: blueviolet; */
+}
+.header-2 .girl
+{
+    width: 80%;
+}
